@@ -1,9 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .logo {
   height: 6em;
@@ -39,4 +34,50 @@
 
 .read-the-docs {
   color: #888;
+}
+
+section{
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.userData {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.form {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+button {
+  padding: 10px 15px !important;
+  margin: 15px;
+  color: rgb(253, 253, 253);
+  background-color: rgb(14, 53, 53) !important;
+  border-radius: 9px solid rgb(18, 66, 66) !important;
+  
+}
+
+button:hover {
+  background-color: rgb(19, 30, 133);
+}
+
+img {
+  padding: 15px;
 }
